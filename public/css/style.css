@@ -1,0 +1,220 @@
+html,
+body,
+header,
+#home,
+#service,
+#aboutus,
+#project,
+#customer,
+#contact {
+  min-height: 100vh;
+}
+
+#service {
+  min-height: 50vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+}
+
+#home {
+  background: url("../img/Backgruond/cartoon-construction.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#service {
+  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#aboutus {
+  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#project,
+#customer,
+#contact {
+  background: #3333 no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: "Athiti", sans-serif;
+}
+
+#navbarMenu li.active a span {
+  color: #54abee;
+}
+
+#navbarMenu li.active a {
+  border-bottom: 1px solid white;
+}
+
+#navbarMenu li a:hover span {
+  color: #54abee;
+}
+
+#navbarMenu li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: linear-gradient(
+    to 45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+}
+
+#curve {
+  position: absolute;
+  bottom: 0;
+}
+
+.wrap {
+  fill: black;
+}
+
+.home-content {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.rotate {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.padding-page {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+
+.padding-page-none-top {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+
+.container-grid {
+  max-width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+
+.container-grid .box {
+  color: #929796;
+  background: #333;
+  padding: 20px;
+  display: grid;
+  font-size: 20px;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container-grid .box:hover {
+  background: #e91e63;
+}
+
+.container-grid .box h4 {
+  color: white;
+  font-weight: 600;
+}
+
+.container-grid .box p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.container-grid .box .content div {
+  height: 180px;
+}
+
+.container-grid .box img {
+  max-width: 150px;
+}
+
+.container-grid .box:nth-child(1) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.container-grid .box:nth-child(2),
+.container-grid .box:nth-child(3),
+.container-grid .box:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
+@media (max-width: 991px) {
+  .container-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: minmax(auto, auto);
+  }
+  .container-grid .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+}
+
+.divider {
+  margin: 5rem 0;
+  height: 1px;
+}
+
+.heading {
+  margin-top: 5rem;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    margin-top: 0rem;
+  }
+}
+
+/* @media only screen and (max-width: 1600px){ body { background: green; }}
+      @media only screen and (max-width: 1200px){ body { background: blue; }}
+      @media only screen and (max-width: 900px){ body { background: yellow; }}
+      @media only screen and (max-width: 600px){ body { background: purple; }}
+      @media only screen and (max-width: 400px){ body { background: orange; }} */

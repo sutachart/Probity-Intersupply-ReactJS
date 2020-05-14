@@ -9,21 +9,15 @@ export default class Service extends Component {
           <div class="box">
             <div class="content">
               <span>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
-                  width="30"
-                  height="30"
-                />
-                <h3 style={{ float: "right", marginLeft: 10 }}>
-                  บริการทั้งหมดของเรา
-                </h3>
+                <img src="img/icon/gear_tool.png" width="50" height="50" />
+                <h3 class="text-heading">บริการทั้งหมดของเรา</h3>
               </span>
             </div>
           </div>
           <div class="box">
             <div class="content">
               <div>
-                <img src="img/icon/01.png" />
+                <img src="img/icon/05.png" />
               </div>
               <h4>รับเหมาก่อสร้าง</h4>
               <p>
@@ -36,7 +30,7 @@ export default class Service extends Component {
           <div class="box">
             <div class="content">
               <div>
-                <img src="img/icon/02.png" />
+                <img src="img/icon/04.png" />
               </div>
               <h4>รับเหมางานระบบ</h4>
               <p>
@@ -49,7 +43,7 @@ export default class Service extends Component {
           <div class="box">
             <div class="content">
               <div>
-                <img src="img/icon/03.png" />
+                <img src="img/icon/29.png" />
               </div>
               <h4>รับติดตั้งโทรคมนาคม</h4>
               <p>

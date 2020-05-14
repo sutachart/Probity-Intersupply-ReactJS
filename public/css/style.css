@@ -10,15 +10,15 @@ header,
   min-height: 100vh;
 }
 
-#service {
-  min-height: 50vh;
-}
-
 html {
   scroll-behavior: smooth;
 }
 body {
   position: relative;
+}
+
+#service {
+  min-height: 50vh;
 }
 
 #home {
@@ -48,10 +48,26 @@ body {
   background-size: cover;
 }
 
-#project,
-#customer,
+#project {
+  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#customer {
+  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
+  background: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #contact {
-  background: #3333 no-repeat center center fixed;
+  background: white no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -207,9 +223,19 @@ body {
   margin-top: 5rem;
 }
 
+.text-heading {
+  float: right;
+  margin-left: 20px;
+  font-size: 36px;
+}
+
 @media (max-width: 991px) {
   .heading {
     margin-top: 0rem;
+  }
+  .text-heading {
+    margin-top: 8px;
+    font-size: 24px;
   }
 }
 

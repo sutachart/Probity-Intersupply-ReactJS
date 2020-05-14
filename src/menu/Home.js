@@ -10,8 +10,7 @@ export default class Home extends Component {
             <span class="sub-text mb-3 d-block">
               <em>
                 A construction worker is a manual laborer employed in the
-                physical construction of the built environment and its
-                infrastructure.
+                physical construction of the built environment.
               </em>
             </span>
           </div>

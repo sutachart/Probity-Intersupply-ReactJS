@@ -7,6 +7,7 @@ import Home from "./menu/Home";
 import Footer from "./menu/Footer";
 import Service from "./menu/Service";
 import AboutUs from "./menu/AboutUs";
+import Contact from "./menu/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +28,13 @@ ReactDOM.render(
     <AboutUs />
   </React.StrictMode>,
   document.getElementById("aboutus")
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Contact />
+  </React.StrictMode>,
+  document.getElementById("contact")
 );
 
 ReactDOM.render(

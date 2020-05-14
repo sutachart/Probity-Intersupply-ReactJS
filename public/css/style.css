@@ -8,6 +8,7 @@ header,
 #customer,
 #contact {
   min-height: 100vh;
+  font-family: "Athiti", sans-serif;
 }
 
 html {
@@ -67,7 +68,7 @@ body {
 }
 
 #contact {
-  background: white no-repeat center center fixed;
+  background-color: #f8f9fa !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,6 +126,10 @@ body {
 .home-content {
   font-weight: 900;
   font-size: 3rem;
+}
+
+.dropdown-menu {
+  min-width: 2rem !important;
 }
 
 .rotate {
@@ -225,6 +230,7 @@ body {
 
 .text-heading {
   float: right;
+  margin: 10px;
   margin-left: 20px;
   font-size: 36px;
 }
@@ -239,8 +245,32 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .heading {
+    margin-top: 0rem;
+  }
+}
+
 /* @media only screen and (max-width: 1600px){ body { background: green; }}
       @media only screen and (max-width: 1200px){ body { background: blue; }}
       @media only screen and (max-width: 900px){ body { background: yellow; }}
       @media only screen and (max-width: 600px){ body { background: purple; }}
       @media only screen and (max-width: 400px){ body { background: orange; }} */
+
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  padding: 1rem 0;
+}

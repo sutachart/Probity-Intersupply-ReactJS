@@ -2,13 +2,29 @@ html,
 body,
 header,
 #home,
+#ourservice,
 #service,
 #aboutus,
 #project,
 #customer,
 #contact {
-  min-height: 100vh;
   font-family: "Athiti", sans-serif;
+}
+
+html,
+body,
+header,
+#home,
+#service,
+#project,
+#customer,
+#contact {
+  min-height: 100vh;
+}
+
+#ourservice,
+#aboutus {
+  min-height: 30vh;
 }
 
 html {
@@ -22,9 +38,22 @@ body {
   min-height: 50vh;
 }
 
+.site-blocks-cover {
+  min-height: 100vh;
+}
+
+.text-head-content {
+  /* color: rgb(76, 100, 133); */
+  color: black;
+}
+
+.nav-link {
+  color: white !important;
+}
+
 #home {
-  background: url("../img/Backgruond/cartoon-construction.jpg") no-repeat center
-    center fixed;
+  background: url("../img/Background/house_new.jpg") no-repeat center center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +61,6 @@ body {
 }
 
 #service {
-  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
   background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,7 +69,6 @@ body {
 }
 
 #aboutus {
-  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
   background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -50,7 +77,6 @@ body {
 }
 
 #project {
-  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
   background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -59,8 +85,7 @@ body {
 }
 
 #customer {
-  /* background: url("../img/gradient.jpg") no-repeat center center fixed; */
-  background: #333;
+  background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,57 +100,29 @@ body {
   background-size: cover;
 }
 
-.nav-link {
+#navbar {
+  padding: 25px 10px;
+  transition: 0.6s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+a.nav-link span {
   font-size: 20px;
   font-family: "Athiti", sans-serif;
-}
-
-#navbarMenu li.active a span {
-  color: #54abee;
-}
-
-#navbarMenu li.active a {
-  border-bottom: 1px solid white;
-}
-
-#navbarMenu li a:hover span {
-  color: #54abee;
-}
-
-#navbarMenu li a:hover {
-  border-bottom: 1px solid white;
-}
-
-.rgba-gradient {
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
-  );
-  background: linear-gradient(
-    to 45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
-  );
-}
-
-#curve {
-  position: absolute;
-  bottom: 0;
-}
-
-.wrap {
-  fill: black;
+  color: white;
 }
 
 .home-content {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-weight {
+  font-weight: 600;
 }
 
 .dropdown-menu {
@@ -221,7 +218,6 @@ body {
 
 .divider {
   margin: 5rem 0;
-  height: 1px;
 }
 
 .heading {
@@ -243,6 +239,20 @@ body {
     margin-top: 8px;
     font-size: 24px;
   }
+  .home-content {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .divider {
+    margin: 3rem 0;
+  }
+  .padding-page {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -250,12 +260,6 @@ body {
     margin-top: 0rem;
   }
 }
-
-/* @media only screen and (max-width: 1600px){ body { background: green; }}
-      @media only screen and (max-width: 1200px){ body { background: blue; }}
-      @media only screen and (max-width: 900px){ body { background: yellow; }}
-      @media only screen and (max-width: 600px){ body { background: purple; }}
-      @media only screen and (max-width: 400px){ body { background: orange; }} */
 
 .map-container-5 {
   overflow: hidden;

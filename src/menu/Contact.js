@@ -9,34 +9,10 @@ export default class Contact extends Component {
           <div class="row justify-content-center">
             <div class="col-md-7 text-center">
               <h2 class="font-weight-bold text-black">ติดต่อเรา</h2>
-              <p class="mb-5">Please sent your message.</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-6">
-              <div class="card card-cascade narrower">
-                <div class="card-body card-body-cascade text-center">
-                  <div
-                    id="map-container-google-9"
-                    class="z-depth-1-half map-container-5"
-                    style={{ height: 300 }}
-                  >
-                    <iframe
-                      src="https://maps.google.com/maps?q=Madryt&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                      frameborder="0"
-                      style={{ border: 0 }}
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="card-body card-body-cascade text-center">
-                  <div>
-                    test
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
+          <div class="row rounded">
+            <div class="col-md-12 col-lg-12 mt-2 mb-2">
               <form action="#" class="p-5 bg-white rounded">
                 <div class="row form-group">
                   <div class="col-md-12 mb-3 mb-md-0">
@@ -103,6 +79,7 @@ export default class Contact extends Component {
                 </div>
               </form>
             </div>
+
           </div>
         </div>
       </div>

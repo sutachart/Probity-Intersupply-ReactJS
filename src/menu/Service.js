@@ -6,7 +6,7 @@ export default class Service extends Component {
     return (
       <div>
         <div class="container container-grid padding-page">
-          <div class="box">
+          <div class="box rounded">
             <div class="content">
               <span>
                 <img src="img/icon/gear_tool.png" width="50" height="50" />

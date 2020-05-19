@@ -21,70 +21,15 @@
 
 <body>
   <!-- Header -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="img/icon/home_icon.png" width="30" height="30" style="margin-bottom: 5px;" />
-          <span style="margin-left: 15px;" class="text-uppercase">Probity Intersupply</span>
-        </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <ul class="navbar-nav ml-auto">
-            <li class=" nav-item mr-3 active">
-              <a class="nav-link text-light" href="#home">
-                <span>หน้าหลัก</span>
-              </a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-light" href="#service">
-                <span>บริการของเรา</span>
-              </a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-light" href="#aboutus">
-                <span>เกี่ยวกับเรา</span>
-              </a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-light" href="#project">
-                <span>ผลงาน</span>
-              </a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-light" href="#customer">
-                <span>ลูกค้า</span>
-              </a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-light" href="#contact">
-                <span>ติดต่อ</span>
-              </a>
-            </li>
-            <li class="nav-item btn-group border border-light rounded">
-              <button class="btn btn-dark">TH</button>
-              <button class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href=""><span>TH</span></a>
-                <a class="dropdown-item" href=""><span>EN</span></a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div id="home">
-    </div>
-  </header>
+  <div id="home"></div>
   <!-- End Header -->
 
+  <div id="ourservice"></div>
+
   <!-- Main content -->
-  <div id="service"></div>
   <div id="aboutus"></div>
   <div id="project"></div>
+  <div id="service"></div>
   <div id="customer"></div>
   <div id="contact"></div>
   <!-- End Main content -->
@@ -95,53 +40,20 @@
   </footer>
   <!-- End footer -->
 
-  <!-- Scroll down to change active -->
+  <!-- Scrolling navbar -->
   <script>
-    // Cache selectors
-    var lastId,
-      topMenu = $("#navbarMenu"),
-      topMenuHeight = topMenu.outerHeight() + 30,
-      // All list items
-      menuItems = topMenu.find("a"),
-      // Anchors corresponding to menu items
-      scrollItems = menuItems.map(function () {
-        var item = $($(this).attr("href"));
-        if (item.length) { return item; }
-      });
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function () { scrollFunction() };
 
-    // Bind click handler to menu items
-    // so we can get a fancy scroll animation
-    menuItems.click(function (e) {
-      var href = $(this).attr("href"),
-        offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
-      $('html, body').stop().animate({
-        scrollTop: offsetTop
-      }, 300);
-      e.preventDefault();
-    });
-
-    // Bind to scroll
-    $(window).scroll(function () {
-      // Get container scroll position
-      var fromTop = $(this).scrollTop() + topMenuHeight;
-
-      // Get id of current scroll item
-      var cur = scrollItems.map(function () {
-        if ($(this).offset().top < fromTop)
-          return this;
-      });
-      // Get the id of the current element
-      cur = cur[cur.length - 1];
-      var id = cur && cur.length ? cur[0].id : "";
-
-      if (lastId !== id) {
-        lastId = id;
-        // Set/remove active class
-        menuItems
-          .parent().removeClass("active")
-          .end().filter("[href='#" + id + "']").parent().addClass("active");
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("navbar").style.background = "rgb(76, 100, 133)";
+      } else {
+        document.getElementById("navbar").style.padding = "25px 10px";
+        document.getElementById("navbar").style.background = "";
       }
-    });
+    }
   </script>
 
   <!-- Bootstrap4 -->

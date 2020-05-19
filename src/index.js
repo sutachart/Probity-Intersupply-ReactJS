@@ -10,6 +10,7 @@ import Contact from "./menu/Contact";
 import OurService from "./menu/OurService";
 import Project from "./menu/Project";
 import Customer from "./menu/Customer";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>

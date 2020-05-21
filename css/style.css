@@ -51,10 +51,10 @@ body {
   color: white !important;
 }
 
-@media only screen and (min-width: 320px) {
-  body,
-  #home {
+@media only screen and (max-width: 990px) {
+  html {
     background-attachment: scroll !important;
+    background-size: cover;
   }
 }
 

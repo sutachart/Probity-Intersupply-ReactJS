@@ -29,10 +29,14 @@ header,
 
 html {
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 body {
   position: relative;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 #service {
@@ -44,7 +48,6 @@ body {
 }
 
 .text-head-content {
-  /* color: rgb(76, 100, 133); */
   color: black;
 }
 
@@ -56,6 +59,7 @@ body {
   #home {
     min-height: 100%;
     background-attachment: scroll !important;
+    background-size: cover;
   }
 }
 

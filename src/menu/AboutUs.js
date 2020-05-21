@@ -12,7 +12,7 @@ export default class AboutUs extends Component {
                 alt="550x550"
                 width="550"
                 height="550"
-                src="img/background/homefront.jpg"
+                src="img/img_project/homefront.jpg"
                 data-holder-rendered="true"
               />
             </div>

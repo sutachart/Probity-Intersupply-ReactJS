@@ -70,7 +70,7 @@ export default class Project extends Component {
             </div>
             <div class="col-11 col-sm-4 mt-4">
               <img
-                src="img/img_project/550.jpg"
+                src="img/img_project/homefront.jpg"
                 class="img-fluid mx-auto"
                 height="500"
               />

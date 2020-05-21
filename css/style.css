@@ -29,6 +29,7 @@ header,
 
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   position: relative;
@@ -54,7 +55,7 @@ body {
 @media only screen and (max-width: 990px) {
   #home {
     min-height: 100%;
-    background-size: cover;
+    background-attachment: scroll !important;
   }
 }
 

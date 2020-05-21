@@ -5,53 +5,114 @@ export default class Service extends Component {
   render() {
     return (
       <div>
-        <div class="container container-grid padding-page">
-          <div class="box rounded">
-            <div class="content">
-              <span>
-                <img src="img/icon/gear_tool.png" width="50" height="50" />
-                <h3 class="text-heading">บริการทั้งหมดของเรา</h3>
-              </span>
+        <div class="container  padding-page">
+          <div class="row justify-content-center text-center">
+            <div>
+              <span class="sub-title">SERVICES</span>
+              <h3 class="text-head-content">
+                <b>บริการของเรา</b>
+              </h3>
             </div>
           </div>
-          <div class="box">
-            <div class="content">
-              <div>
-                <img src="img/icon/05.png" />
+          <div class="row mt-5">
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/construction.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>รับเหมาก่อสร้าง</b>
+                    <div class="text-muted mt-1 mb-2">Construction</div>
+                  </h5>
+                  <p>
+                    รับเหมาก่อสร้างบ้าน ออกแบบบ้าน รับเหมาต่อเติม
+                    และปรับปรุงอาคาร พร้อมตกแต่งภายในครบวงจร
+                  </p>
+                </div>
               </div>
-              <h4>รับเหมาก่อสร้าง</h4>
-              <p>
-                รับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายใน
-                รับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้าน
-              </p>
             </div>
-          </div>
-
-          <div class="box">
-            <div class="content">
-              <div>
-                <img src="img/icon/04.png" />
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/system.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>รับเหมางานระบบ</b>
+                    <div class="text-muted mt-1 mb-2">System Construction</div>
+                  </h5>
+                  <p>
+                    รับเหมาติดตั้งงานระบบ เดินสายไฟ ติดตั้งกล้องวงจรปิด
+                    เครื่องใช้ไฟฟ้า และระบบสาธารณูปโภค
+                  </p>
+                </div>
               </div>
-              <h4>รับเหมางานระบบ</h4>
-              <p>
-                รับเหมาก่อสร้างระบบเต่างๆ เช่น เครื่องใช้ไฟฟ้า ระบบสาธารณูปโภค
-                รับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้าน
-              </p>
             </div>
-          </div>
-
-          <div class="box">
-            <div class="content">
-              <div>
-                <img src="img/icon/29.png" />
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/telecommunication.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>รับติตั้งระบบโทรคมนาคม</b>
+                    <div class="text-muted mt-1 mb-2">Telecommunication</div>
+                  </h5>
+                  <p>รับติดตั้งระบบโทรคมนาคมต่าง เสาสัญญาณโทรศัพท์ 3G 4G</p>
+                </div>
               </div>
-              <h4>รับติดตั้งโทรคมนาคม</h4>
-              <p>
-                รับติดตั้งระบบโทรคมนาคมต่างๆ dtac True Ais 3G 4G
-                รับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้านและอาคารต่างๆพร้อมตกแต่งภายในรับเหมาก่อสร้างบ้าน
-              </p>
+            </div>
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/interior.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>รับตกแต่งภายใน</b>
+                    <div class="text-muted mt-1 mb-2">Interior Design</div>
+                  </h5>
+                  <p>
+                    รับเหมาก่อสร้างบ้าน ออกแบบบ้าน รับเหมาต่อเติม
+                    และปรับปรุงอาคาร พร้อมตกแต่งภายในครบวงจร
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/furniture.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>เฟอร์นิเจอร์บิวท์อิน</b>
+                    <div class="text-muted mt-1 mb-2">Built-in furniture</div>
+                  </h5>
+                  <p>
+                    รับเหมาติดตั้งงานระบบ เดินสายไฟ ติดตั้งกล้องวงจรปิด
+                    เครื่องใช้ไฟฟ้า และระบบสาธารณูปโภค
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-4">
+              <div class="row row-sm-12 ">
+                <div class="col-3 col-sm-3 mt-2">
+                  <img src="img/service/management.png" width="70" />
+                </div>
+                <div class="col-9 col-sm-9">
+                  <h5 class="text-head-content">
+                    <b>การบริหารโครงการ</b>
+                    <div class="text-muted mt-1 mb-2">Project Management</div>
+                  </h5>
+                  <p>รับติดตั้งระบบโทรคมนาคมต่าง เสาสัญญาณโทรศัพท์ 3G 4G</p>
+                </div>
+              </div>
             </div>
           </div>
+          <hr class="divider-none-bottom" />
         </div>
       </div>
     );

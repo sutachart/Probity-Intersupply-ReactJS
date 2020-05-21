@@ -8,7 +8,7 @@ export default class AboutUs extends Component {
           <div class="row row-cols-1 justify-content-center align-items-center justify-content-center">
             <div class="col-11 col-sm-7">
               <img
-                class="img-fluid mx-auto rounded mb-3"
+                class="img-fluid mx-auto mb-3"
                 alt="550x550"
                 width="550"
                 height="550"
@@ -18,8 +18,9 @@ export default class AboutUs extends Component {
             </div>
 
             <div class="col-11 col-sm-5">
-              <h3>
-                <b class="text-head-content">เกี่ยวกับเรา</b>
+              <span class="sub-title">About us</span>
+              <h3 class="text-head-content">
+                <b>เกี่ยวกับเรา</b>
               </h3>
               <hr />
               <div>
@@ -38,9 +39,9 @@ export default class AboutUs extends Component {
                 <button class="btn btn-primary">ดูข้อมูลเพิ่มเติม</button>
               </div>
             </div>
-
-            <hr class="divider" />
           </div>
+
+          <hr class="divider-none-bottom" />
         </div>
       </div>
     );

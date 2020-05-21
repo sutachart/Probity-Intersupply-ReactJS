@@ -220,8 +220,10 @@ a.nav-link span {
   margin: 5rem 0;
 }
 
-.heading {
+.divider-none-bottom {
   margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .text-heading {
@@ -235,15 +237,18 @@ a.nav-link span {
   .heading {
     margin-top: 0rem;
   }
+
   .text-heading {
     margin-top: 8px;
     font-size: 24px;
   }
+
   .home-content {
     font-weight: 900;
     font-size: 2rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+
   .divider {
     margin: 3rem 0;
   }
@@ -261,20 +266,17 @@ a.nav-link span {
   }
 }
 
-.map-container-5 {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.map-container-5 iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 .footer {
   padding: 1rem 0;
+}
+
+.sub-title {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4c6485;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

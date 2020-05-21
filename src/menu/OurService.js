@@ -10,7 +10,7 @@ export default class OurService extends Component {
             <div class="col-md-4 ">
               <div class="row row-sm-12 ">
                 <div class="col-3 col-sm-3 mt-2">
-                  <img src="img/service/model.png" width="70" />
+                  <img src="img/service/construction.png" width="70" />
                 </div>
                 <div class="col-9 col-sm-9">
                   <h5 class="text-head-content">
@@ -26,7 +26,7 @@ export default class OurService extends Component {
             <div class="col-md-4 ">
               <div class="row row-sm-12 ">
                 <div class="col-3 col-sm-3 mt-2">
-                  <img src="img/service/cctv.png" width="70" />
+                  <img src="img/service/system.png" width="70" />
                 </div>
                 <div class="col-9 col-sm-9">
                   <h5 class="text-head-content">
@@ -42,7 +42,7 @@ export default class OurService extends Component {
             <div class="col-md-4 ">
               <div class="row row-sm-12 ">
                 <div class="col-3 col-sm-3 mt-2">
-                  <img src="img/service/tower2.png" width="70" />
+                  <img src="img/service/telecommunication.png" width="70" />
                 </div>
                 <div class="col-9 col-sm-9">
                   <h5 class="text-head-content">

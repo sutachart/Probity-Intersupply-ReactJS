@@ -7,11 +7,14 @@ export default class Contact extends Component {
       <div>
         <div class="container padding-page">
           <div class="row justify-content-center">
-            <div class="col-md-7 text-center">
-              <h2 class="font-weight-bold text-black">ติดต่อเรา</h2>
+            <div class="text-center">
+              <span class="sub-title">CONTACTS</span>
+              <h3 class="text-head-content">
+                <b>ติดต่อเรา</b>
+              </h3>
             </div>
           </div>
-          <div class="row rounded">
+          <div class="row rounded mt-4">
             <div class="col-md-12 col-lg-12 mt-2 mb-2">
               <form action="#" class="p-5 bg-white rounded">
                 <div class="row form-group">
@@ -79,7 +82,6 @@ export default class Contact extends Component {
                 </div>
               </form>
             </div>
-
           </div>
         </div>
       </div>

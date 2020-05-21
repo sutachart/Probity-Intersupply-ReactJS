@@ -52,8 +52,7 @@ body {
 }
 
 #home {
-  background: url("../img/Background/house_new.jpg") no-repeat center center
-    fixed;
+  background: url("../img/wallpaper/housenew.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -278,5 +277,5 @@ a.nav-link span {
   font-weight: 700;
   color: #4c6485;
   margin-bottom: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

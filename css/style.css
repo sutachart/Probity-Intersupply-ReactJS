@@ -53,8 +53,8 @@ body {
 
 @media all and (max-width: 900px), (max-device-width: 900px) {
   #home {
-    background: url("../img/wallpaper/housenew.jpg") no-repeat center center
-      fixed;
+    background: url("../img/wallpaper/housenew.jpg") no-repeat center;
+    background-attachment: scroll;
   }
 }
 

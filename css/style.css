@@ -22,9 +22,9 @@ header,
   min-height: 100vh;
 }
 
-#ourservice,
+#service,
 #aboutus {
-  min-height: 30vh;
+  min-height: 100vh;
 }
 
 html {
@@ -34,8 +34,8 @@ body {
   position: relative;
 }
 
-#service {
-  min-height: 50vh;
+#ourservice {
+  min-height: 30vh;
 }
 
 .site-blocks-cover {
@@ -66,30 +66,10 @@ body {
   background-size: cover;
 }
 
-#service {
-  background: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#aboutus {
-  background: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#project {
-  background: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
+#service,
+#ourservice,
+#aboutus,
+#project,
 #customer {
   background: white;
   -webkit-background-size: cover;
@@ -120,6 +100,14 @@ a.nav-link span {
   font-family: "Athiti", sans-serif;
   color: white;
 }
+
+/* a.nav-link span:hover {
+  border-bottom: 0.5px solid white;
+} */
+
+/* .active {
+  border-bottom: 1px solid white;
+} */
 
 .home-content {
   font-weight: 900;

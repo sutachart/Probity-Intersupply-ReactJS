@@ -16,17 +16,18 @@ export default class Home extends Component {
               class="navbar-toggler"
               data-toggle="collapse"
               data-target="#navbarMenu"
+              onClick
             >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
               <ul class="navbar-nav ml-auto">
-                <li class=" nav-item mr-3 active">
+                <li class="nav-item mr-3 active">
                   <a class="nav-link" href="#home">
                     <span>หน้าหลัก</span>
                   </a>
                 </li>
-                <li class="nav-item mr-3">
+                <li id="about" class="nav-item mr-3">
                   <a class="nav-link" href="#aboutus">
                     <span>เกี่ยวกับเรา</span>
                   </a>
@@ -36,10 +37,35 @@ export default class Home extends Component {
                     <span>ผลงาน</span>
                   </a>
                 </li>
-                <li class="nav-item mr-3">
-                  <a class="nav-link" href="#service">
+                <li class="nav-item dropdown mr-3">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    id="dropdown07"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    href="#"
+                  >
                     <span>บริการของเรา</span>
                   </a>
+                  <div
+                    class="dropdown-menu mt-2 mb-2"
+                    aria-labelledby="dropdown07"
+                  >
+                    <a class="dropdown-item text-dark" href="#service">
+                      <span>รับเหมาก่อสร้าง</span>
+                    </a>
+                    <a class="dropdown-item text-dark" href="#service">
+                      <span>รับเหมางานระบบ</span>
+                    </a>
+                    <a class="dropdown-item text-dark" href="#service">
+                      <span>รับเหมางานโทรคมนาคม</span>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-dark" href="#">
+                      <span>All our services</span>
+                    </a>
+                  </div>
                 </li>
                 <li class="nav-item mr-3">
                   <a class="nav-link" href="#customer">

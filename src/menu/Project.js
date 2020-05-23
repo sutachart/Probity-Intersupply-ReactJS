@@ -11,7 +11,7 @@ export default class Project extends Component {
             <div class="text-center">
               <span class="sub-title">PROJECTS</span>
               <h3 class="text-head-content">
-                <b>ผลงานที่ผ่านมา</b>
+                <b>ผลงานของเรา</b>
               </h3>
             </div>
           </div>

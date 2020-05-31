@@ -84,6 +84,17 @@ export default class Contact extends Component {
             </div>
           </div>
         </div>
+        <div class="row-12 row-sm-12 row-lg-12">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7756.2466885404865!2d100.6913035!3d13.5892755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM1JzIxLjYiTiAxMDDCsDQxJzM5LjIiRQ!5e0!3m2!1sth!2sth!4v1531067936211"
+              width="100%"
+              height="315"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     );
   }

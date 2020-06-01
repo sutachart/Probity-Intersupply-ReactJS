@@ -88,27 +88,27 @@ body {
 }
 
 #navbar {
-  padding: 25px 10px;
-  transition: 0.6s;
+  padding: 35px 10px;
+  transition: 0.8s;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 99;
 }
 
+.font-black {
+  color: black !important;
+  transition: 2s;
+}
+
+.shadow-navbar {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
 a.nav-link span {
   font-size: 20px;
   font-family: "Athiti", sans-serif;
-  color: white;
 }
-
-/* a.nav-link span:hover {
-  border-bottom: 0.5px solid white;
-} */
-
-/* .active {
-  border-bottom: 1px solid white;
-} */
 
 .home-content {
   font-weight: 900;
@@ -117,7 +117,8 @@ a.nav-link span {
 }
 
 .heading-weight {
-  font-weight: 600;
+  /* font-weight: 600; */
+  color: white;
 }
 
 .dropdown-menu {

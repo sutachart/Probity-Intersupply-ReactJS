@@ -10,24 +10,23 @@ export default class Home extends Component {
         <div class="navbar navbar-dark navbar-expand-lg" id="navbar">
           <div class="container">
             <a class="navbar-brand ml-2" href="/">
-              <span class="text-light heading-weight">PIS Part.,Ltd.</span>
+              <span class="heading-weight">PIS Part.,Ltd.</span>
             </a>
             <button
               class="navbar-toggler"
               data-toggle="collapse"
               data-target="#navbarMenu"
-              onClick
             >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-3 active">
+                <li class="nav-item mr-3">
                   <a class="nav-link" href="#home">
                     <span>หน้าหลัก</span>
                   </a>
                 </li>
-                <li id="about" class="nav-item mr-3">
+                <li class="nav-item mr-3">
                   <a class="nav-link" href="#aboutus">
                     <span>เกี่ยวกับเรา</span>
                   </a>
@@ -39,7 +38,7 @@ export default class Home extends Component {
                 </li>
                 <li class="nav-item dropdown mr-3">
                   <a
-                    class="nav-link dropdown-toggle text-light"
+                    class="nav-link dropdown-toggle"
                     id="dropdown07"
                     data-toggle="dropdown"
                     aria-haspopup="true"

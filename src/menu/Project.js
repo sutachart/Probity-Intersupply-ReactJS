@@ -7,13 +7,14 @@ export default class Project extends Component {
     return (
       <div>
         <div class="container padding-page">
-          <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 justify-content-center">
             <div class="text-center">
-              <span class="sub-title">PROJECTS</span>
-              <h3 class="text-head-content">
+              <h3 class="text-header">
+                <span class="sub-title">Projects</span>
                 <b>ผลงานของเรา</b>
               </h3>
             </div>
+            <hr />
           </div>
           <div class="row justify-content-center mt-5">
             <div class="col-11 col-sm-4 mt-4">
@@ -95,12 +96,6 @@ export default class Project extends Component {
               </div>
             </div>
           </div>
-          <div class="row justify-content-center mt-3">
-            <a class="btn btn-primary text-light" width="500" src="/">
-              ดูทั้งหมด
-            </a>
-          </div>
-          <hr class="divider-none-bottom" />
         </div>
       </div>
     );

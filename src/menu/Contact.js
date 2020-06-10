@@ -9,13 +9,17 @@ export default class Contact extends Component {
           <div class="row justify-content-center">
             <div class="text-center">
               <span class="sub-title">CONTACTS</span>
-              <h3 class="text-head-content">
+              <h3 class="text-header">
                 <b>ติดต่อเรา</b>
               </h3>
             </div>
           </div>
+
           <div class="row rounded mt-4">
-            <div class="col-md-12 col-lg-12 mt-2 mb-2">
+            <div
+              class="col-12
+             col-md-12 col-lg-12 mt-2 mb-2"
+            >
               <form action="#" class="p-5 bg-white rounded">
                 <div class="row form-group">
                   <div class="col-md-12 mb-3 mb-md-0">
@@ -65,7 +69,7 @@ export default class Contact extends Component {
                       name="message"
                       id="message"
                       cols="30"
-                      rows="5"
+                      rows="2"
                       class="form-control"
                       placeholder="Please sent your message."
                     ></textarea>
@@ -82,6 +86,7 @@ export default class Contact extends Component {
                 </div>
               </form>
             </div>
+            {/* <div class="col-6">dasd</div> */}
           </div>
         </div>
         <div class="row-12 row-sm-12 row-lg-12">

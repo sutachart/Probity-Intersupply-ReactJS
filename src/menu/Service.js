@@ -6,13 +6,12 @@ export default class Service extends Component {
     return (
       <div>
         <div class="container  padding-page">
-          <div class="row justify-content-center text-center">
-            <div>
-              <span class="sub-title">SERVICES</span>
-              <h3 class="text-head-content">
-                <b>บริการของเรา</b>
-              </h3>
-            </div>
+          <div class="col-12 col-sm-12 justify-content-center text-center">
+            <span class="sub-title">SERVICES</span>
+            <h3 class="text-header">
+              <b>บริการของเรา</b>
+            </h3>
+            <hr />
           </div>
           <div class="row mt-5">
             <div class="col-md-4 p-4">
@@ -112,7 +111,6 @@ export default class Service extends Component {
               </div>
             </div>
           </div>
-          <hr class="divider-none-bottom" />
         </div>
       </div>
     );

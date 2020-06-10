@@ -43,6 +43,10 @@ body {
   min-height: 100vh;
 }
 
+.text-header {
+  color: rgba(30, 103, 147, 1);
+}
+
 .text-head-content {
   color: black;
 }
@@ -67,9 +71,16 @@ body {
   background-size: cover;
 }
 
+#aboutus {
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #service,
 #ourservice,
-#aboutus,
 #project,
 #customer {
   background: white;
@@ -90,10 +101,14 @@ body {
 #navbar {
   padding: 35px 10px;
   transition: 0.8s;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 99;
+}
+
+.right-navbar {
+  margin-right: 20px;
 }
 
 .font-black {
@@ -117,7 +132,7 @@ a.nav-link span {
 }
 
 .heading-weight {
-  font-weight: 600;
+  /* font-weight: 600; */
   color: white;
 }
 
@@ -132,7 +147,7 @@ a.nav-link span {
 }
 
 .padding-page {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 20px;
@@ -235,13 +250,16 @@ a.nav-link span {
     margin: 3rem 0;
   }
   .padding-page {
-    padding-top: 40px;
+    padding-top: 90px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 20px;
   }
   .heading {
     margin-top: 0rem;
+  }
+  .pic-customer {
+    height: 150px;
   }
 }
 
@@ -270,9 +288,9 @@ a.nav-link span {
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
-  color: #4c6485;
+  color: black;
   margin-bottom: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -41,11 +41,12 @@
   <script>
     window.onscroll = function () { scrollFunction() };
     function scrollFunction() {
-      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         document.getElementById("navbar").style.padding = "20px 10px";
         document.getElementById("navbar").style.background = "white";
         document.getElementById("navbar").style.position = "fixed";
         document.getElementById("navbar").style.opacity = "0.95";
+        document.getElementById("navbar").style.transition = "0.8";
         $("#navbar").last().addClass("shadow-navbar");
         $("#navbar div a span").addClass("font-black");
         $("#navbarMenu ul li a").addClass("font-black");

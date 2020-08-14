@@ -17,7 +17,7 @@ export default class Home extends Component {
               data-toggle="collapse"
               data-target="#navbarMenu"
             >
-              <span class="navbar-toggler-icon  "></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
               <ul class="navbar-nav ml-auto">
